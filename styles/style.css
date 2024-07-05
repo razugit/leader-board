@@ -2,9 +2,19 @@
     width: 40px;
 }
 main{
-    max-width: 870px;
+    background-color: white;
+    margin-top: 20px;
 }
-.top-player{
+.border-line{
+    border-bottom: 2px solid rgb(215, 213, 213);
+    background-color: white;
+    padding: 10px;
+}
+main, .blogs{
+    max-width: 870px;
+    
+}
+.top-player, .blogs{
     background-color: white;
 }
 body{
@@ -12,4 +22,31 @@ body{
 }
 .player img{
     width: 65px;
+}
+.row-image img{
+    width: 100%;
+}
+.row-data h3{
+    font-size: 20px;
+
+}
+.row-data p{
+    font-size: 12px;
+    color: gray;
+}
+footer img{
+    width: 100%;
+}
+.classes img{
+    width: 20px;
+    height: 20px;
+}
+footer{
+    width: 800px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 20px;
 }
